@@ -1,0 +1,72 @@
+@use "sass/variables" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+.container {
+  width: 800px;
+  background-color: #f6f6f6;
+  margin: auto;
+  .get-repo {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+    input {
+      display: inline-block;
+      width: 75%;
+      border: none;
+      padding: 15px 20px;
+      height: 54px;
+      &:focus {
+        outline: 2px solid $ornColor;
+      }
+    }
+    .get-button {
+      background-color: $ornColor;
+      color: white;
+      width: 140px;
+      font-weight: bold;
+      height: 54px;
+      text-align: center;
+      line-height: 54px;
+      cursor: pointer;
+    }
+  }
+
+  // Start Show Data
+  .show-data {
+    padding: 20px;
+    background-color: #e0e0e0;
+    .repo-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background-color: #fff;
+      margin-top: 20px;
+      .aspan {
+        span {
+          background-color: #023047;
+          padding: 4px 20px;
+          color: white;
+          border-radius: 5px;
+        }
+        a {
+          background-color: #c1121f;
+          padding: 4px 33px;
+          color: white;
+          border-radius: 5px;
+          text-decoration: none;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
