@@ -6,7 +6,7 @@ This project is a simple JavaScript application that allows you to fetch and dis
 
 Here’s how the application might look:
 
-![Bring-Repos-From-Github](https://faresmo2.github.io/Bring-Repos-From-Github/)
+[Bring-Repos-From-Github](https://faresmo2.github.io/Bring-Repos-From-Github/)
 
 ## Features
 
